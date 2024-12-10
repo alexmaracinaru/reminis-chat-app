@@ -20,11 +20,12 @@ const OurStartups = () => {
   const [startups, setStartups] = useState([]);
 
   useEffect(() => {
-    fetch("/startups.json")
+    fetch(`${process.env.PUBLIC_URL}/startups.json`)
       .then((response) => response.json())
       .then((data) => setStartups(data))
       .catch((error) => console.error("Error fetching startups:", error));
   }, []);
+  
 
   return (
     <section
