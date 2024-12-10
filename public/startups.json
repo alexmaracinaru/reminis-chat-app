@@ -1,0 +1,30 @@
+[
+    {
+        "category": "LeadershipTech",
+        "name": "SummitAlign",
+        "description": "Build stronger, more cohesive teams with AI-driven insights.",
+        "image": "/images/startups/summitalign.png",
+        "link": "#"
+    },
+    {
+        "category": "HealthTech",
+        "name": "Saluto",
+        "description": "Control your health with AI. Turn your health data into personalized insights.",
+        "image": "/images/startups/saluto.png",
+        "link": "#"
+    },
+    {
+        "category": "HealthTech",
+        "name": "Reminis",
+        "description": "Reconnect with lost loved ones by mimicking their communication style through shared message history.",
+        "image": "/images/startups/reminis.png",
+        "link": "#"
+    },
+    {
+        "category": "Data Analytics",
+        "name": "MediaPulse",
+        "description": "Your source for real-time news, analytics, and trends. Transform data into decisions with precision and speed.",
+        "image": "/images/startups/mediapulse.png",
+        "link": "#"
+    }
+]

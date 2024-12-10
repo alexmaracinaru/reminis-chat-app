@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.indigo-text {
+  color: rgb(21, 5, 72);
+}
+
+.blue-text {
+  color: rgb(60, 56, 74);
+}
+
+html,
+body {
+  height: 100%;
+  overflow-x: hidden;
+}
+
+.hero-section {
+  position: relative;
+  /* Keep Hero fixed */
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 20;
+  pointer-events: auto;
+
+}
+
+.content-section {
+  background-color: white;
+  position: relative;
+  z-index: 20;
+  /* Stack above Hero */
+  min-height: 100vh;
+  /* Each section is a full height of the viewport */
+}
+
+html {
+  scroll-behavior: smooth;
+}
