@@ -22,31 +22,31 @@ const Footer = () => {
 
         {/* Column 2: Services */}
         <div>
-          <h3 className="text-lg font-semibold mb-4 md:pt-0 pt-6">Services</h3>
+          <h3 className="text-lg font-medium mb-4 md:pt-0 pt-6">Services</h3>
           <ul className="space-y-2">
              <li>
-    <a href="#founders-alignment" className="text-sm hover:underline">
+        <a href="#founders-alignment" className=" text-xs font-openSans font-medium  text-gray-500 text-sm indigo-text hover:text-gray-500  ease-in-out duration-300">
       Founder Alignment
     </a>
   </li>
   <li>
-    <a href="#pmf" className="text-sm hover:underline">
+    <a href="#pmf" className="text-xs font-openSans font-medium text-gray-500 text-sm indigo-text hover:text-gray-500  ease-in-out duration-300">
       Product-Market Fit
     </a>
   </li>
   <li>
-    <a href="#design-sprint" className="text-sm hover:underline">
+    <a href="#design-sprint" className="text-xs font-openSans font-medium  text-gray-500 text-sm indigo-text hover:text-gray-500  ease-in-out duration-300">
       Product Design
     </a>
   </li>
   <li>
-    <a href="#branding" className="text-sm hover:underline">
+    <a href="#branding" className="text-xs font-openSans font-medium  text-gray-500 text-sm indigo-text hover:text-gray-500  ease-in-out duration-300">
       Branding
     </a>
   </li>
  
   <li>
-    <a href="#gtm" className="text-sm hover:underline">
+    <a href="#gtm" className="text-xs font-openSans font-medium  text-gray-500 text-sm indigo-text hover:text-gray-500  ease-in-out duration-300">
       Go-To-Market
     </a>
   </li>
@@ -59,22 +59,22 @@ const Footer = () => {
           <h3 className="text-lg font-semibold mb-4 md:pt-0 pt-6">Quick Links</h3>
           <ul className="space-y-2">
             <li>
-              <a href="#studio" className="text-sm hover:underline">
+              <a href="#studio" className="text-xs font-openSans font-medium  text-gray-500 text-sm indigo-text hover:text-gray-500  ease-in-out duration-300">
                 Our Studio
               </a>
             </li>
             <li>
-              <a href="#case-studies" className="text-sm hover:underline">
+              <a href="#case-studies" className="text-xs font-openSans font-medium  text-gray-500 text-sm indigo-text hover:text-gray-500  ease-in-out duration-300">
                 Case Studies
               </a>
             </li>
             <li>
-              <a href="#startup-consulting" className="text-sm hover:underline">
+              <a href="#startup-consulting" className="text-xs font-openSans font-medium  text-gray-500 text-sm indigo-text hover:text-gray-500  ease-in-out duration-300">
                 Startup Consulting
               </a>
             </li>
             <li>
-              <a href="#assessment" className="text-sm hover:underline">
+              <a href="#assessment" className="text-xs font-openSans font-medium  text-gray-500 text-sm indigo-text hover:text-gray-500  ease-in-out duration-300">
                Assessment
               </a>
             </li>
@@ -129,7 +129,7 @@ const Footer = () => {
           {
             city: "Copenhagen",
             address: "Hvidovrevej 101. 1620 Copenhagen",
-            phone: "+45 52788505",
+            phone: "+45 91994403",
           },
           {
             city: "Stockholm",

@@ -11,7 +11,7 @@ const CapabilityCard = ({ step, title, description, howItFits, image, bgPadding 
         <div className="bg-white bg-opacity-10 border border-white border-opacity-40 backdrop-blur-md rounded-lg md:p-6 p-4 lg:p-12">
           <div className="text-white text-left">
             <h3 className="md:text-8xl text-3xl">{step} /</h3>
-            <p className="md:text-3xl text-xl md:max-w-[240px] max-w-[150px]">
+            <p className="md:text-3xl text-xl md:max-w-[240px] max-w-[150px] ">
               {title}
             </p>
           </div>
@@ -78,7 +78,7 @@ const IntegratedCapabilities = () => {
     },
     {
       step: "04",
-      title: "Content Strategy",
+      title: "Content (SoMe) Strategy",
       description:
         "Great content drives trust, engagement, and growth. We create actionable content strategies to keep your audience informed and inspired.",
       howItFits: [
@@ -91,7 +91,7 @@ const IntegratedCapabilities = () => {
 
   return (
     <section className=" bg-white md:px-36 px-6 md:py-24 py-12">
-      <h2 className="md:text-5xl text-4xl md:mb-12 mb-8">Integrated Capabilities</h2>
+      <h2 className="md:text-6xl text-4xl md:mb-12 mb-8 indigo-text">Integrated Capabilities</h2>
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
         {capabilities.map((capability, index) => (
           <CapabilityCard key={index} {...capability} />

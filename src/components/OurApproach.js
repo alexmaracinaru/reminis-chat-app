@@ -12,8 +12,8 @@ const Step = ({ id, step, title, content, deliverables }) => {
         onClick={() => setIsOpen(!isOpen)}
       >
         <div className="flex items-center space-x-8">
-          <div className="text-2xl sm:text-3xl md:text-3xl">{step} --</div>
-          <h3 className="text-2xl md:text-5xl">{title}</h3>
+          <div className="text-2xl sm:text-3xl md:text-3xl indigo-text">{step} --</div>
+          <h3 className="text-2xl md:text-5xl indigo-text">{title}</h3>
         </div>
         <button className="text-xl md:text-3xl">{isOpen ? "-" : "+"}</button>
       </div>
@@ -29,9 +29,9 @@ const Step = ({ id, step, title, content, deliverables }) => {
             transition={{ duration: 0.3 }}
           >
             <div className="max-w-[450px] text-left">
-              <p className="text-gray-600 mt-4">{content}</p>
-              <p className="mt-6 text-2xl">/ Key Deliverables</p>
-              <p className="text-gray-600">{deliverables}</p>
+              <p className="text-gray-600 mt-4 blue-text">{content}</p>
+              <p className="mt-6 text-2xl indigo-text">/ Key Deliverables</p>
+              <p className="text-gray-600 blue-text">{deliverables}</p>
             </div>
           </motion.div>
         )}
@@ -89,7 +89,7 @@ const OurApproach = () => {
 
   return (
     <section className="bg-white px-6 md:px-36 md:py-24 pt-16">
-      <h2 className="text-4xl sm:text-5xl md:text-6xl md:mb-24 text-left pb-12">
+      <h2 className="text-4xl sm:text-5xl md:text-6xl md:mb-24 text-left pb-12 indigo-text">
         Our Approach
       </h2>
 

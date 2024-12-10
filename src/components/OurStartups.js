@@ -6,8 +6,8 @@ const StartupCard = ({ category, name, description, image, link }) => (
     <p className="text-xs sm:text-sm text-gray-500 bg-gray-100 w-fit rounded-lg px-2 py-1">
       {category}
     </p>
-    <h3 className="text-xl sm:text-2xl md:text-3xl">{name}</h3>
-    <p className="text-gray-600 text-sm sm:text-base max-w-[300px] pb-4">
+    <h3 className="text-xl sm:text-2xl md:text-3xl indigo-text">{name}</h3>
+    <p className="text-gray-600 text-sm sm:text-base max-w-[300px] pb-4" >
       {description}
     </p>
     <a href={link} className="text-gray-500 text-xs font-medium hover:font-bold ease-in-out duration-300">
@@ -32,7 +32,7 @@ const OurStartups = () => {
       style={{ zIndex: 20 }}
     >
       {/* Heading for Our Startups */}
-      <h2 className="text-3xl sm:text-4xl md:text-6xl mb-8 text-center md:text-left pt-32">
+      <h2 className="text-3xl sm:text-4xl md:text-6xl mb-8 text-center md:text-left pt-32  indigo-text">
         Our Startups
       </h2>
       {/* Startup Cards Grid */}

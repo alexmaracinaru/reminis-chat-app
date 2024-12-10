@@ -13,6 +13,10 @@
   color: rgb(60, 56, 74);
 }
 
+.btn-color {
+  background-color: rgb(21, 5, 72);
+}
+
 html,
 body {
   height: 100%;

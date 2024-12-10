@@ -44,11 +44,11 @@ const AboutUs = () => {
     <section className="px-6 sm:px-12 md:px-24 lg:px-36 md:py-24">
       {/* About Us Section */}
       <div className="max-w-6xl">
-        <h2 className="text-4xl sm:text-5xl md:text-6xl leading-tight">
+        <h2 className="text-4xl sm:text-5xl md:text-6xl indigo-text">
           We’re entrepreneurial brand builders, growth partners, and design
           leaders who’ve built businesses, including our own — many times over.
         </h2>
-        <button className="px-6 py-2 mt-6 bg-black text-white rounded-full hover:bg-gray-800 transition duration-300 ease-in-out">
+        <button className="px-6 py-2 mt-6 text-white btn-color rounded-full hover:bg-gray-800 transition duration-300 ease-in-out">
           More about us
         </button>
       </div>
