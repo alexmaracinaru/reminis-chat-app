@@ -19,6 +19,7 @@ const HeroWithNavbar = () => {
   className="w-36 h-auto transition-transform duration-300 ease-in-out hover:scale-95"
 />
 
+
   </a>
 
   {/* Navigation Links */}

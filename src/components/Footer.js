@@ -18,6 +18,7 @@ const Footer = () => {
   alt="Namandla Advisors"
   className="w-36 h-auto transition-transform duration-300 ease-in-out hover:scale-95"
 />
+
           <p className="text-sm leading-relaxed blue-text font-openSans max-w-[350px] font-semibold  md:max-w-[300px] max-w-[270px]">
             Transforming startups into high-growth companies through founder alignment,
             design, branding, and strategy.
