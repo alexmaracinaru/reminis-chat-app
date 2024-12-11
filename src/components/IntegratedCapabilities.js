@@ -4,7 +4,7 @@ const CapabilityCard = ({ step, title, description, howItFits, image, bgPadding 
   <div className="flex flex-col space-y-6">
     {/* Image with Blurred Overlay */}
     <div className="relative">
-      <img src={image} alt={title} className="rounded-lg object-cover w-full" />
+      <img src={`${process.env.PUBLIC_URL}${image}`} alt={title} className="rounded-lg object-cover w-full" />
       <div
         className={`absolute inset-0 flex ${bgPadding} md:pl-16 pl-6`}
       >

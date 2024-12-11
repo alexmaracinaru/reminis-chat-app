@@ -13,11 +13,12 @@ const HeroWithNavbar = () => {
 <nav className="relative z-10 flex justify-between items-center px-6 md:px-36 py-4 pt-6 backdrop-blur-sm">
   {/* Logo with hover and home link */}
   <a href="/" className="flex items-center">
-    <img
-      src="/logo.svg"
-      alt="Namandla Advisors"
-      className="w-36 h-auto transition-transform duration-300 ease-in-out hover:scale-95"
-    />
+  <img
+  src={`${process.env.PUBLIC_URL}/images/logo.svg`}
+  alt="Namandla Advisors"
+  className="w-36 h-auto transition-transform duration-300 ease-in-out hover:scale-95"
+/>
+
   </a>
 
   {/* Navigation Links */}

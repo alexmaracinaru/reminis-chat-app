@@ -5,11 +5,11 @@ const AboutUs = () => {
     {
       name: "Alexandra Maracinaru",
       title: "Global Brand & Design Executive.",
-      image: "/images/alexandra.png",
+      image: `${process.env.PUBLIC_URL}/images/alexandra.png`,
       links: [
-        { href: "https://www.linkedin.com/in/alexandramaracinaru/", target: "_blank", icon: "/images/linkedin.svg", alt: "LinkedIn" },
-        { href: "https://x.com/alexmaracinaru", target: "_blank", icon: "/images/x.svg", alt: "Twitter" },
-        { href: "mailto:am@brandiaq.com", icon: "/images/email.svg", alt: "Email" },
+        { href: "https://www.linkedin.com/in/alexandramaracinaru/", target: "_blank", icon: `${process.env.PUBLIC_URL}/images/linkedin.svg`, alt: "LinkedIn" },
+        { href: "https://x.com/alexmaracinaru", target: "_blank", icon: `${process.env.PUBLIC_URL}/images/x.svg`, alt: "Twitter" },
+        { href: "mailto:am@brandiaq.com", icon: `${process.env.PUBLIC_URL}/images/email.svg`, alt: "Email" },
       ],
       buttons: [
         { href: "https://brandiaq.com", target: "_blank", label: "brandiaq" },
@@ -19,22 +19,22 @@ const AboutUs = () => {
     {
       name: "Jonatan Håkansson",
       title: "Growth Consultant. Startup Scout.",
-      image: "/images/jonatan.png",
+      image: `${process.env.PUBLIC_URL}/images/jonatan.png`,
       links: [
-        { href: "https://www.linkedin.com/in/jonatanhakansson/", target: "_blank", icon: "/images/linkedin.svg", alt: "LinkedIn" },
-        { href: "https://x.com/jonatanhakansson", target: "_blank", icon: "/images/x.svg", alt: "Twitter" },
-        { href: "mailto:jonatan@namandla.com", icon: "/images/email.svg", alt: "Email" },
+        { href: "https://www.linkedin.com/in/jonatanhakansson/", target: "_blank", icon: `${process.env.PUBLIC_URL}/images/linkedin.svg`, alt: "LinkedIn" },
+        { href: "https://x.com/jonatanhakansson", target: "_blank", icon: `${process.env.PUBLIC_URL}/images/x.svg`, alt: "Twitter" },
+        { href: "mailto:jonatan@namandla.com", icon: `${process.env.PUBLIC_URL}/images/email.svg`, alt: "Email" },
       ],
       buttons: [{ href: "https://hawkeye-invest.com/", target: "_blank", label: "hawkeye-invest" }],
     },
     {
       name: "Patricia Lourenco",
       title: "Product Manager.",
-      image: "/images/patricia.png",
+      image: `${process.env.PUBLIC_URL}/images/patricia.png`,
       links: [
-        { href: "https://www.linkedin.com/in/patricia-s-lourenco/", target: "_blank", icon: "/images/linkedin.svg", alt: "LinkedIn" },
-        { href: "https://x.com/patricialourenco", target: "_blank", icon: "/images/x.svg", alt: "Twitter" },
-        { href: "mailto:patricia@namandla.com", icon: "/images/email.svg", alt: "Email" },
+        { href: "https://www.linkedin.com/in/patricia-s-lourenco/", target: "_blank", icon: `${process.env.PUBLIC_URL}/images/linkedin.svg`, alt: "LinkedIn" },
+        { href: "https://x.com/patricialourenco", target: "_blank", icon: `${process.env.PUBLIC_URL}/images/x.svg`, alt: "Twitter" },
+        { href: "mailto:patricia@namandla.com", icon: `${process.env.PUBLIC_URL}/images/email.svg`, alt: "Email" },
       ],
       buttons: [{ href: "https://pixellate.studio/", target: "_blank", label: "pixellate.studio" }],
     },

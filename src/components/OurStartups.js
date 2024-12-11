@@ -7,7 +7,7 @@ const StartupCard = ({ category, name, description, image, link }) => (
       {category}
     </p>
     <h3 className="text-xl sm:text-2xl md:text-3xl indigo-text">{name}</h3>
-    <p className="text-gray-600 text-sm sm:text-base max-w-[300px] pb-4" >
+    <p className="text-gray-600 text-sm sm:text-base max-w-[300px] pb-4">
       {description}
     </p>
     <a href={link} className="text-gray-500 text-xs font-medium hover:font-bold ease-in-out duration-300">
@@ -22,10 +22,16 @@ const OurStartups = () => {
   useEffect(() => {
     fetch(`${process.env.PUBLIC_URL}/startups.json`)
       .then((response) => response.json())
-      .then((data) => setStartups(data))
+      .then((data) => {
+        // Update image paths dynamically
+        const updatedData = data.map((startup) => ({
+          ...startup,
+          image: `${process.env.PUBLIC_URL}${startup.image}`,
+        }));
+        setStartups(updatedData);
+      })
       .catch((error) => console.error("Error fetching startups:", error));
   }, []);
-  
 
   return (
     <section
@@ -33,7 +39,7 @@ const OurStartups = () => {
       style={{ zIndex: 20 }}
     >
       {/* Heading for Our Startups */}
-      <h2 className="text-3xl sm:text-4xl md:text-6xl mb-8 text-center md:text-left pt-32  indigo-text">
+      <h2 className="text-3xl sm:text-4xl md:text-6xl mb-8 text-center md:text-left pt-32 indigo-text">
         Our Startups
       </h2>
       {/* Startup Cards Grid */}
