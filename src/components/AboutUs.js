@@ -5,7 +5,7 @@ const AboutUs = () => {
     {
       name: "Alexandra Maracinaru",
       title: "Global Brand & Design Executive.",
-      image: `${process.env.PUBLIC_URL}/images/alexandra.png`,
+      image: `${process.env.PUBLIC_URL}/images/alexandra1.png`,
       links: [
         { href: "https://www.linkedin.com/in/alexandramaracinaru/", target: "_blank", icon: `${process.env.PUBLIC_URL}/images/linkedin.svg`, alt: "LinkedIn" },
         { href: "https://x.com/alexmaracinaru", target: "_blank", icon: `${process.env.PUBLIC_URL}/images/x.svg`, alt: "Twitter" },
