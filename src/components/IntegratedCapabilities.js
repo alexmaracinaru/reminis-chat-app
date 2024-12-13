@@ -50,7 +50,7 @@ const IntegratedCapabilities = () => {
         "/ Supports Go-To-Market strategies with a robust online footprint.",
       ],
       image: "/images/digital.png",
-      bgPadding: "md:pt-24 pt-12 md:pb-10 pb-6 lg:pb-20",
+      bgPadding: "md:pt-24 pt-12 md:pb-10 pb-6 ",
     },
     {
       step: "02",
@@ -62,7 +62,7 @@ const IntegratedCapabilities = () => {
         "/ Integrates into GTM Strategy as a conversion-focused platform.",
       ],
       image: "/images/web.png",
-      bgPadding: "md:pt-64 pt-32 md:pb-10 pb-6 lg:pb-28",
+      bgPadding: "md:pt-64 pt-32 md:pb-10 pb-6 ",
     },
     {
       step: "03",
@@ -74,7 +74,7 @@ const IntegratedCapabilities = () => {
         "/ Enhances Brand Identity by defining tone and core messaging.",
       ],
       image: "/images/comm.png",
-      bgPadding: "md:pt-80 pt-36 md:pb-4 pb-8 lg:pb-24",
+      bgPadding: "md:pt-80 pt-36 md:pb-4 pb-8 ",
     },
     {
       step: "04",
@@ -85,7 +85,7 @@ const IntegratedCapabilities = () => {
         "/ Strengthens GTM Strategy with compelling storytelling for acquisition and retention.",
       ],
       image: "/images/content.png",
-      bgPadding: "md:pt-56 pt-24 md:pb-8 pb-8 lg:pb-24",
+      bgPadding: "md:pt-56 pt-24 md:pb-8 pb-8 ",
     },
   ];
 
