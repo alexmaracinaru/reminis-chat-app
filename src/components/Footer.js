@@ -20,8 +20,8 @@ const Footer = () => {
 />
 
           <p className="text-sm leading-relaxed blue-text font-openSans max-w-[350px] font-semibold  md:max-w-[300px] max-w-[270px]">
-            Transforming startups into high-growth companies through founder alignment,
-            design, branding, and strategy.
+          We support and invest in companies we
+          would personally want to join.
           </p>
         </div>
 
@@ -116,9 +116,9 @@ const Footer = () => {
     ></textarea>
     <button
       type="submit"
-      className="bg-black text-white px-6 py-2 rounded-md text-sm hover:bg-gray-800 transition self-start"
+      className="bg-black text-white px-6 py-2 rounded-full text-sm hover:bg-gray-700 transition self-start"
     >
-      Submit
+     Work with us
     </button>
   </form>
 </div>

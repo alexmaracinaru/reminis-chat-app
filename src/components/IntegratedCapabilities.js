@@ -10,8 +10,8 @@ const CapabilityCard = ({ step, title, description, howItFits, image, bgPadding 
       >
         <div className="bg-white bg-opacity-10 border border-white border-opacity-40 backdrop-blur-md rounded-lg md:p-6 p-4 lg:p-12">
           <div className="text-white text-left">
-            <h3 className="md:text-8xl text-3xl">{step} /</h3>
-            <p className="md:text-3xl text-xl md:max-w-[240px] max-w-[150px] ">
+            <h3 className="md:text-8xl text-3xl font-light">{step}</h3>
+            <p className="md:text-3xl text-xl md:max-w-[240px] max-w-[150px] font-light">
               {title}
             </p>
           </div>
@@ -44,13 +44,13 @@ const IntegratedCapabilities = () => {
       step: "01",
       title: "Building a Strong Digital Presence",
       description:
-        "Your startup's digital presence is the foundation for credibility and connection. We craft engaging digital ecosystems that resonate with your audience and scale with your growth.",
+        "Your startup's digital presence is the foundation for credibility and connection. Therefore, we craft engaging digital ecosystems that resonate with your audience and scale with your growth.",
       howItFits: [
         "/ Amplifies your Brand Strategy by establishing consistent messaging across all touchpoints.",
         "/ Supports Go-To-Market strategies with a robust online footprint.",
       ],
       image: "/images/digital.png",
-      bgPadding: "md:pt-24 pt-12 md:pb-16 pb-6",
+      bgPadding: "md:pt-24 pt-12 md:pb-10 pb-6 lg:pb-20",
     },
     {
       step: "02",
@@ -62,7 +62,7 @@ const IntegratedCapabilities = () => {
         "/ Integrates into GTM Strategy as a conversion-focused platform.",
       ],
       image: "/images/web.png",
-      bgPadding: "md:pt-64 pt-32 md:pb-16 pb-6",
+      bgPadding: "md:pt-64 pt-32 md:pb-10 pb-6 lg:pb-28",
     },
     {
       step: "03",
@@ -74,7 +74,7 @@ const IntegratedCapabilities = () => {
         "/ Enhances Brand Identity by defining tone and core messaging.",
       ],
       image: "/images/comm.png",
-      bgPadding: "md:pt-80 pt-36 md:pb-16 pb-8",
+      bgPadding: "md:pt-80 pt-36 md:pb-4 pb-8 lg:pb-24",
     },
     {
       step: "04",
@@ -85,7 +85,7 @@ const IntegratedCapabilities = () => {
         "/ Strengthens GTM Strategy with compelling storytelling for acquisition and retention.",
       ],
       image: "/images/content.png",
-      bgPadding: "md:pt-56 pt-24 md:pb-16 pb-8",
+      bgPadding: "md:pt-56 pt-24 md:pb-8 pb-8 lg:pb-24",
     },
   ];
 

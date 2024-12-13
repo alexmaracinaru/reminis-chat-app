@@ -47,7 +47,7 @@ const OurApproach = () => {
       step: "01",
       title: "Founder Alignment Assessment",
       content:
-        "Startups often fail due to misaligned visions and goals among founders. Addressing this first ensures a solid leadership foundation, cohesive decision-making, and shared priorities.",
+        "You know that startups often fail due to misaligned visions and goals among founders. Addressing this first ensures you achieve a solid leadership foundation, cohesive decision-making, and shared priorities.",
       deliverables:
         "Alignment assessment report, actionable recommendations for team cohesion.",
     },
@@ -56,7 +56,7 @@ const OurApproach = () => {
       step: "02",
       title: "Design Sprint",
       content:
-        "Once the founders are aligned, the next priority is to validate ideas, prototypes, and assumptions rapidly. A well-executed Design Sprint minimizes wasted time and resources by focusing on feasibility and early feedback.",
+        "Once you, as founders, are aligned, the next priority is to validate ideas, prototypes, and assumptions rapidly. A well-executed Design Sprint minimizes wasted time and resources by focusing on feasibility and early feedback.",
       deliverables:
         "Prototypes, user-tested feedback, insights into product-market fit.",
     },
@@ -65,7 +65,7 @@ const OurApproach = () => {
       step: "03",
       title: "Product-Market Fit (PMF)",
       content:
-        "After validating the prototype, the startup must refine the product to align with market needs. This step ensures the product is viable and scalable, reducing the risk of launching something without demand.",
+        "After validating your prototype, you must refine the product to align with market needs. This step ensures the product is viable and scalable reducing, therefore, your risk (and our as investors) of launching something without demand.",
       deliverables: "PMF validation report, scaling roadmap.",
     },
     {
@@ -73,7 +73,7 @@ const OurApproach = () => {
       step: "04",
       title: "Brand Strategy & Identity",
       content:
-        "Once the product has achieved PMF, the startup needs a compelling brand to capture attention, communicate its purpose, and build trust. Branding also sets the foundation for effective marketing and fundraising.",
+        "Once we achieve PMF for your product, you need a compelling brand to capture attention, communicate your business' and product's purpose, and build trust. Moreover, branding also sets the foundation for effective marketing and fundraising.",
       deliverables:
         "Brand strategy document, visual identity package, pitch deck.",
     },
@@ -82,13 +82,15 @@ const OurApproach = () => {
       step: "05",
       title: "Go-To-Market (GTM) Strategy",
       content:
-        "With the product refined and the brand established, the final step is planning and executing a strategy for rapid market traction. This stage focuses on customer acquisition, scaling, and measuring success.",
+        "With the product refined and the brand established, the final step is planning and executing a strategy for rapid market traction. During this stage we focus on customer acquisition, scaling, and measuring your success.",
       deliverables: "GTM strategy, launch plan with milestones.",
     },
   ];
 
   return (
-    <section className="bg-white px-6 md:px-36 md:py-24 pt-16">
+    <section
+    id="our-approach"
+    className="bg-white px-6 md:px-36 md:py-24 pt-16">
       <h2 className="text-4xl sm:text-5xl md:text-6xl md:mb-24 text-left pb-12 indigo-text">
         Our Approach
       </h2>

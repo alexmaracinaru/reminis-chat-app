@@ -41,7 +41,9 @@ const AboutUs = () => {
   ];
 
   return (
-    <section className="px-6 sm:px-12 md:px-24 lg:px-36 md:py-24">
+    <section 
+    id="about-us"
+    className="px-6 sm:px-12 md:px-24 lg:px-36 md:py-24">
       {/* About Us Section */}
       <div className="max-w-6xl">
         <h2 className="text-4xl sm:text-5xl md:text-6xl indigo-text">
@@ -100,6 +102,14 @@ const AboutUs = () => {
           ))}
         </div>
       </div>
+      <div className="flex flex-col space-y-12 md:max-w-[1050px] pt-32 md:my-56 m-auto">
+  <h2 className="indigo-text text-5xl sm:text-6xl md:text-8xl text-center gray-text">
+    We know what it takes to transform an idea into the next great thing.
+  </h2>
+  <button className="px-6 py-2 btn-color text-white rounded-full hover:bg-gray-700 transition duration-300 ease-in-out m-auto text-center">
+    Book scoping session
+  </button>
+</div>
     </section>
   );
 };

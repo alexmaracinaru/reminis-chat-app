@@ -5,7 +5,7 @@ import OurApproach from "./components/OurApproach";
 import IntegratedCapabilities from "./components/IntegratedCapabilities";
 import AboutUs from "./components/AboutUs";
 import Footer from "./components/Footer";
-
+import TrustedBy from "./components/TrustedBy";
 function App() {
   return (
     <div className="relative">
@@ -17,10 +17,12 @@ function App() {
       {/* Content Sections */}
       <div className="relative z-20 bg-white">
         <OurStartups />
+        <TrustedBy />
         <OurApproach />
         <IntegratedCapabilities />
         <AboutUs />
         <Footer />
+      
       </div>
     </div>
   );

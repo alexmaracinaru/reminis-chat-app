@@ -10,7 +10,12 @@
 }
 
 .blue-text {
-  color: rgb(60, 56, 74);
+  color: #3c384a;
+}
+
+.shadow-blue {
+  box-shadow: 0 21px 99px rgba(40, 67, 104, 0.127);
+
 }
 
 .btn-color {
@@ -21,6 +26,7 @@ html,
 body {
   height: 100%;
   overflow-x: hidden;
+
 }
 
 .hero-section {
@@ -45,4 +51,8 @@ body {
 
 html {
   scroll-behavior: smooth;
+}
+
+#to-the-top {
+  z-index: 50;
 }

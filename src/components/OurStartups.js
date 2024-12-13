@@ -2,17 +2,27 @@ import React, { useEffect, useState } from "react";
 
 const StartupCard = ({ category, name, description, image, link }) => (
   <div className="space-y-4">
-    <img src={image} alt={name} className="rounded-lg w-full object-cover" />
+   <div className="relative overflow-hidden rounded-lg">
+    <a href={link} target="_blank" rel="noopener noreferrer">
+      <img
+        src={image}
+        alt={name}
+        className="rounded-lg w-full object-cover transform transition-transform duration-300 ease-in-out hover:scale-105"
+      />
+    </a>
+    </div>
     <p className="text-xs sm:text-sm text-gray-500 bg-gray-100 w-fit rounded-lg px-2 py-1">
       {category}
     </p>
-    <h3 className="text-xl sm:text-2xl md:text-3xl indigo-text">{name}</h3>
+    <a href={link} target="_blank" rel="noopener noreferrer">
+      <h3 className="text-xl sm:text-2xl md:text-3xl indigo-text">{name}</h3>
+    </a>
     <p className="text-gray-600 text-sm sm:text-base max-w-[300px] pb-4">
       {description}
     </p>
-    <a href={link} className="text-gray-500 text-xs font-medium hover:font-bold ease-in-out duration-300">
-      Discover More &rarr;
-    </a>
+    {/* <a href={link} className="text-gray-500 text-xs font-medium hover:font-bold ease-in-out duration-300">
+      Read Case Study &rarr;
+    </a> */}
   </div>
 );
 
@@ -35,6 +45,7 @@ const OurStartups = () => {
 
   return (
     <section
+    id="our-startups"
       className="relative bg-white px-6 sm:px-12 md:px-24 lg:px-36 py-10 min-h-screen"
       style={{ zIndex: 20 }}
     >
@@ -55,6 +66,8 @@ const OurStartups = () => {
           />
         ))}
       </div>
+         {/* Divider */}
+  <div className="md:block hidden mt-12 border-t border-gray-300 relative z-10"></div>
     </section>
   );
 };
