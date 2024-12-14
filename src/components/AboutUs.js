@@ -13,7 +13,7 @@ const AboutUs = () => {
       ],
       buttons: [
         { href: "https://brandiaq.com", target: "_blank", label: "brandiaq" },
-        { href: "https://alexandramaracinaru.com", target: "_blank", label: "al.ma" },
+        { href: "https://alexandramaracinaru.com", target: "_blank", label: "alma" },
       ],
     },
     {
@@ -36,7 +36,7 @@ const AboutUs = () => {
         { href: "https://x.com/patricialourenco", target: "_blank", icon: `${process.env.PUBLIC_URL}/images/x.svg`, alt: "Twitter" },
         { href: "mailto:patricia@namandla.com", icon: `${process.env.PUBLIC_URL}/images/email.svg`, alt: "Email" },
       ],
-      buttons: [{ href: "https://pixellate.studio/", target: "_blank", label: "pixellate.studio" }],
+      buttons: [{ href: "https://pixellate.studio/", target: "_blank", label: "pixellate studio" }],
     },
   ];
 

@@ -132,23 +132,23 @@ const Footer = () => {
       <div className="flex flex-col md:flex-row justify-between relative z-10 space-y-8 md:space-y-0 md:space-x-6 md:mt-12">
         {[
           {
-            city: "Copenhagen",
+            country: "Denmark ",
             address: "Hvidovrevej 101. 1620 Copenhagen",
             phone: "+45 91994403",
           },
           {
-            city: "Stockholm",
+            country: "Sweden",
             address: "Drottning 100, 111 60 Stockholm",
             phone: "+46 8123 4567",
           },
           {
-            city: "Barcelona",
+            country: "Spain",
             address: "Carrer de Mallorca, 08008 Barcelona",
             phone: "+34 932 123 456",
           },
         ].map((office, index) => (
           <div key={index} className=" pt-6 space-y-2 text-sm max-w-[200px] md:pd-0 md:last:pb-0 last:pb-12">
-            <h4 className="font-semibold">{office.city}</h4>
+            <h4 className="font-semibold">{office.country}</h4>
             <p>{office.address}</p>
             <p>{office.phone}</p>
           </div>
