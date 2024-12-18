@@ -7,7 +7,7 @@ const StartupCard = ({ category, name, description, image, link }) => (
       <img
         src={image}
         alt={name}
-        className="rounded-lg w-full object-cover transform transition-transform duration-300 ease-in-out hover:scale-105"
+        className="border-radius-21 w-full object-cover transform transition-transform duration-300 ease-in-out hover:scale-105"
       />
     </a>
     </div>
@@ -50,7 +50,7 @@ const OurStartups = () => {
       style={{ zIndex: 20 }}
     >
       {/* Heading for Our Startups */}
-      <h2 className="text-3xl sm:text-4xl md:text-6xl mb-8 text-center md:text-left pt-32 indigo-text">
+      <h2 className="text-3xl sm:text-4xl md:text-6xl text-center md:text-left md:pt-32 md:pb-20 indigo-text">
         Our Startups
       </h2>
       {/* Startup Cards Grid */}
@@ -67,7 +67,7 @@ const OurStartups = () => {
         ))}
       </div>
          {/* Divider */}
-  <div className="md:block hidden mt-12 border-t border-gray-300 relative z-10"></div>
+  <div className="md:block hidden mt-24 border-t border-gray-300 relative z-10"></div>
     </section>
   );
 };

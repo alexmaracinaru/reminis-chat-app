@@ -13,7 +13,7 @@ const Step = ({ id, step, title, content, deliverables }) => {
       >
         <div className="flex items-center space-x-8">
           <div className="text-2xl sm:text-3xl md:text-3xl indigo-text">{step} --</div>
-          <h3 className="text-2xl md:text-5xl indigo-text">{title}</h3>
+          <h3 className="text-2xl md:text-4xl lg:text-3xl indigo-text">{title}</h3>
         </div>
         <button className="text-xl md:text-3xl">{isOpen ? "-" : "+"}</button>
       </div>
@@ -90,8 +90,8 @@ const OurApproach = () => {
   return (
     <section
     id="our-approach"
-    className="bg-white px-6 md:px-36 md:py-24 pt-16">
-      <h2 className="text-4xl sm:text-5xl md:text-6xl md:mb-24 text-left pb-12 indigo-text">
+    className="bg-white px-6 md:px-36 md:pt-32 ">
+      <h2 className="text-4xl sm:text-5xl md:text-6xl md:mb-20 text-left indigo-text">
         Our Approach
       </h2>
 
@@ -99,7 +99,7 @@ const OurApproach = () => {
         {steps.map((step) => (
           <Step
             key={step.id}
-            id={step.id} // Pass the id to the Step component
+            id={step.id}
             step={step.step}
             title={step.title}
             content={step.content}

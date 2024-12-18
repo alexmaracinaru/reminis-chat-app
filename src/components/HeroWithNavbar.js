@@ -68,7 +68,7 @@ const HeroWithNavbar = () => {
 
       {/* Hero Content */}
       <div className="relative z-10 flex flex-col md:flex-row items-end justify-between px-6 sm:px-12 md:px-36 md:pb-36 md:h-full h-1/2">
-        <h1 className="indigo-text text-5xl sm:text-6xl md:text-8xl text-left gray-text max-w-[650px] md:pb-0 pt-32">
+        <h1 className="indigo-text text-5xl sm:text-6xl md:text-8xl lg:text-7xl xl:text-7xl 2xl:text-8xl text-left gray-text max-w-[650px] md:pb-0 pt-32">
           We're a venture design studio.
         </h1>
         <div className="flex flex-col space-y-4 md:max-w-[350px]">

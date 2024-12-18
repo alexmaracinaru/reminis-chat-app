@@ -92,7 +92,7 @@ const Footer = () => {
 {/* Bottom Inquiry Section */}
 <div className="mt-8 py-8 flex flex-col md:flex-row justify-between items-center space-y-8 md:space-y-0 relative z-10">
   <div className="md:mb-12 text-center md:text-left">
-    <h3 className="indigo-text text-4xl sm:text-6xl md:text-8xl text-left gray-text max-w-[950px] md:pb-0 pb-12">
+    <h3 className="indigo-text text-4xl sm:text-6xl md:text-8xl lg:text-7xl xl:text-7xl 2xl:text-8xl text-left gray-text max-w-[950px] md:pb-0 pb-12 pr-12">
       Let’s grow your company together.
     </h3>
   </div>

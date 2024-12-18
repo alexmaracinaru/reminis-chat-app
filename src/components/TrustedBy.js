@@ -5,8 +5,8 @@ import GradientBackground from "./GradientBackground";
 const TrustedBy = () => {
   
   return (
-    <div className=" px-6 md:px-36 md:py-48">
-      <h2 className="text-4xl sm:text-5xl md:text-6xl  text-left  indigo-text pb-6">
+    <div className=" px-6 md:px-36 md:pt-36 md:pb-36 ">
+      <h2 className="text-4xl sm:text-5xl md:text-6xl  text-left  indigo-text pb-12">
      Our Clients & Friends
       </h2> 
       <p className="font-openSans text-xl sm:text-base md:text-sm blue-text leading-relaxed md:mb-24 max-w-[500px]">

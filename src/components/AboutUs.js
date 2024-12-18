@@ -5,7 +5,7 @@ const AboutUs = () => {
     {
       name: "Alexandra Maracinaru",
       title: "Global Brand & Design Executive.",
-      image: `${process.env.PUBLIC_URL}/images/alexandra1.png`,
+      image: `${process.env.PUBLIC_URL}/images/alexandra.png`,
       links: [
         { href: "https://www.linkedin.com/in/alexandramaracinaru/", target: "_blank", icon: `${process.env.PUBLIC_URL}/images/linkedin.svg`, alt: "LinkedIn" },
         { href: "https://x.com/alexmaracinaru", target: "_blank", icon: `${process.env.PUBLIC_URL}/images/x.svg`, alt: "Twitter" },
@@ -36,7 +36,7 @@ const AboutUs = () => {
         { href: "https://x.com/patricialourenco", target: "_blank", icon: `${process.env.PUBLIC_URL}/images/x.svg`, alt: "Twitter" },
         { href: "mailto:patricia@namandla.com", icon: `${process.env.PUBLIC_URL}/images/email.svg`, alt: "Email" },
       ],
-      buttons: [{ href: "https://pixellate.studio/", target: "_blank", label: "pixellate studio" }],
+      buttons: [{ href: "https://pixellatte.studio/", target: "_blank", label: "pixellatte" }],
     },
   ];
 
