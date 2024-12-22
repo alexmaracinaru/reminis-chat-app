@@ -9,7 +9,7 @@ const TrustedBy = () => {
       <h2 className="text-4xl sm:text-5xl md:text-6xl  text-left  indigo-text pb-12">
      Our Clients & Friends
       </h2> 
-      <p className="font-openSans text-xl sm:text-base md:text-sm blue-text leading-relaxed md:mb-24 max-w-[500px]">
+      <p className="font-openSans text-gray-500 text-xl sm:text-base md:text-sm leading-relaxed md:mb-24 max-w-[500px]">
       We’ve had the privilege of collaborating with some of the world’s most innovative startups and renowned brands. They trusted us to help launch their visions or elevate their growth to new heights.
           </p>
     

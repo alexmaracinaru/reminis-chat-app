@@ -72,7 +72,7 @@ const HeroWithNavbar = () => {
           We're a venture design studio.
         </h1>
         <div className="flex flex-col space-y-4 md:max-w-[350px]">
-          <p className=" text-xl sm:text-base md:text-sm blue-text leading-relaxed line-height-1.65">
+          <p className=" text-xl sm:text-base md:text-sm text-gray-500 leading-relaxed line-height-1.65">
             We transform startups into high-growth companies through founder
             alignment, product design, branding, and go-to-market strategies.
           </p>

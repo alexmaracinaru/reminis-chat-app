@@ -17,7 +17,7 @@ const StartupCard = ({ category, name, description, image, link }) => (
     <a href={link} target="_blank" rel="noopener noreferrer">
       <h3 className="text-xl sm:text-2xl md:text-3xl indigo-text">{name}</h3>
     </a>
-    <p className="text-gray-600 text-sm sm:text-base max-w-[300px] pb-4">
+    <p className="font-openSans text-gray-500 text-xl sm:text-base md:text-sm max-w-[300px] pb-4 leading-relaxed">
       {description}
     </p>
     {/* <a href={link} className="text-gray-500 text-xs font-medium hover:font-bold ease-in-out duration-300">
