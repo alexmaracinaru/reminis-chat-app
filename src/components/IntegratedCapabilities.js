@@ -2,7 +2,7 @@ import React from "react";
 
 const IntegratedCapabilities = () => {
   return (
-    <section className="bg-white px-6 md:px-36 md:pt-32 ">
+    <section className="bg-white px-6 md:px-36 md:pt-48 ">
       <h2 className="text-4xl sm:text-5xl md:text-6xl md:mb-20 text-left indigo-text">
         Integrated Capabilities
       </h2>
@@ -28,7 +28,7 @@ const IntegratedCapabilities = () => {
             </div>
           </div>
           <p className="text-2xl text-gray-800 max-w-[550px]">
-            Your startup's digital presence is the foundation for credibility and connection. We craft engaging digital ecosystems that resonate with your audience and scale with your growth.
+          Your digital presence is your audience's first interaction. We design and optimize websites to create a strong first impression, build credibility, and drive engagement.
           </p>
           <div className="space-y-2">
             <p className="text-xs text-gray-500 bg-gray-100 w-fit rounded-lg px-2 py-1">
@@ -59,14 +59,14 @@ const IntegratedCapabilities = () => {
                 <div className="text-white text-left md:p-6 p-4 lg:p-4 xl:p-8 2xl:p-12">
                   <h3 className="2xl:text-7xl md:text-6xl lg:text-4xl text-3xl font-light">02</h3>
                   <p className="2xl:text-3xl md:text-3xl lg:text-xl text-lg md:max-w-[240px] lg:max-w-[180px] max-w-[150px] 2xl:max-w-[240px]">
-                    Web Design & Optimization
+                    Product Design & Development
                   </p>
                 </div>
               </div>
             </div>
           </div>
           <p className="text-2xl text-gray-800 max-w-[550px]">
-            Your website is often your startup's first impression. We design and optimize digital experiences that communicate your product, engage users, and drive conversions.
+          While your website sets the stage, your product must meet user needs. We transform your MVP into a scalable, polished product through intuitive, iterative design improvements.
           </p>
           <div className="space-y-2">
             <p className="text-xs text-gray-500 bg-gray-100 w-fit rounded-lg px-2 py-1">
@@ -74,10 +74,10 @@ const IntegratedCapabilities = () => {
             </p>
             <ul className="list-none">
               <li className="text-gray-500 max-w-[450px]">
-                / Elevates Product-Market Fit by translating user insights into intuitive designs.
+                / Enhances Product-Market Fit by translating user feedback into intuitive, user-centered designs.
               </li>
               <li className="text-gray-500 max-w-[450px]">
-                / Integrates into GTM Strategy as a conversion-focused platform.
+                / Prepares your product fo GTM efforts by ensuring it aligns with market-ready standards.
               </li>
             </ul>
           </div>
@@ -151,6 +151,9 @@ const IntegratedCapabilities = () => {
           <ul className="list-none">
             <li className="text-gray-500 max-w-[450px]">
             / Strengthens GTM Strategy with compelling storytelling for acquisition and retention.
+            </li>
+            <li className="text-gray-500 max-w-[450px]">
+            / Builds a strong online presence that supports your brand and product and supports growth by creating scalable content
             </li>
            
           </ul>

@@ -51,22 +51,14 @@ const OurApproach = () => {
       deliverables:
         "Alignment assessment report, actionable recommendations for team cohesion.",
     },
-    {
-      id: "design-sprint",
-      step: "02",
-      title: "Design Sprint",
-      content:
-        "Once you, as founders, are aligned, the next priority is to validate ideas, prototypes, and assumptions rapidly. A well-executed Design Sprint minimizes wasted time and resources by focusing on feasibility and early feedback.",
-      deliverables:
-        "Prototypes, user-tested feedback, insights into product-market fit.",
-    },
+   
     {
       id: "pmf",
-      step: "03",
+      step: "02",
       title: "Product-Market Fit (PMF)",
       content:
-        "After validating your prototype, you must refine the product to align with market needs. This step ensures the product is viable and scalable reducing, therefore, your risk (and our as investors) of launching something without demand.",
-      deliverables: "PMF validation report, scaling roadmap.",
+        "Achieving Product-Market Fit is critical to ensuring your product is viable and scalable. To accelerate this process, we leverage tools like Design Sprints to rapidly validate ideas, prototypes, and assumptions. This minimizes wasted time and resources while generating user-tested feedback and actionable insights. Once prototypes are validated, the product is refined to better align with market needs, reducing your risk of launching something without demand.",
+      deliverables: "Prototypes, user-tested feedback, PMF validation report, scaling roadmap.",
     },
     {
       id: "branding",
@@ -75,7 +67,7 @@ const OurApproach = () => {
       content:
         "Once we achieve PMF for your product, you need a compelling brand to capture attention, communicate your business' and product's purpose, and build trust. Moreover, branding also sets the foundation for effective marketing and fundraising.",
       deliverables:
-        "Brand strategy document, visual identity package, pitch deck.",
+        "Brand strategy doc, visual identity package, pitch deck, brand book",
     },
     {
       id: "gtm",

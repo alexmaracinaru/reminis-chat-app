@@ -46,7 +46,7 @@ const AboutUs = () => {
     className="px-6 sm:px-12 md:px-24 lg:px-36 md:py-24">
       {/* About Us Section */}
       <div className="max-w-6xl">
-        <h2 className="text-4xl sm:text-5xl md:text-6xl indigo-text">
+        <h2 className="text-4xl sm:text-5xl md:text-6xl indigo-text md:pt-48">
           We’re entrepreneurial brand builders, growth partners, and design
           leaders who’ve built businesses, including our own — many times over.
         </h2>

@@ -40,7 +40,7 @@ const Footer = () => {
     </a>
   </li>
   <li>
-    <a href="#design-sprint" className="text-xs font-openSans font-medium  text-gray-500 text-sm indigo-text hover:text-gray-500  ease-in-out duration-300">
+    <a href="#pmf" className="text-xs font-openSans font-medium  text-gray-500 text-sm indigo-text hover:text-gray-500  ease-in-out duration-300">
       Product Design
     </a>
   </li>
@@ -93,7 +93,7 @@ const Footer = () => {
 <div className="mt-8 py-8 flex flex-col md:flex-row justify-between items-center space-y-8 md:space-y-0 relative z-10">
   <div className="md:mb-12 text-center md:text-left">
     <h3 className="indigo-text text-4xl sm:text-6xl md:text-8xl lg:text-7xl xl:text-7xl 2xl:text-8xl text-left gray-text max-w-[950px] md:pb-0 pb-12 pr-12">
-      Let’s grow your company together.
+      Let’s design your company together.
     </h3>
   </div>
   <form className="flex flex-col space-y-4 w-full max-w-md">
