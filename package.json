@@ -16,7 +16,7 @@
     "tailwind-merge": "^2.5.5",
     "web-vitals": "^4.2.4"
   },
-  "homepage": "https://alexmaracinaru.github.io/namandla-react",
+  "homepage": "https://startups.brandiaq.com",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",

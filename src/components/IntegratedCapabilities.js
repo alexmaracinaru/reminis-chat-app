@@ -133,8 +133,8 @@ const IntegratedCapabilities = () => {
               <div className="bg-white bg-opacity-10 border border-white border-opacity-40 backdrop-blur-md rounded-lg">
                 <div className="text-white text-left md:p-6 p-4 lg:p-4 xl:p-8 2xl:p-12">
                   <h3 className="2xl:text-7xl md:text-6xl lg:text-4xl text-3xl font-light">04</h3>
-                  <p className="2xl:text-3xl md:text-3xl lg:text-xl text-lg md:max-w-[240px] lg:max-w-[180px] max-w-[150px] 2xl:max-w-[240px]">
-                   Content (SoMe) Strategy
+                  <p className="2xl:text-3xl md:text-3xl lg:text-xl text-lg md:max-w-[240px] lg:max-w-[180px] max-w-[150px] 2xl:max-w-[200px]">
+                   Content Strategy
                   </p>
                 </div>
               </div>
