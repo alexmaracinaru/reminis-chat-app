@@ -10,7 +10,7 @@ const TrustedBy = () => {
      Our Clients & Friends
       </h2> 
       <p className="font-openSans text-xl sm:text-base md:text-sm blue-text leading-relaxed md:mb-24 max-w-[500px]">
-            We, individually or as a team, worked with some of the best startups and brands in the world. They trusted us to help them launch or help them grow even more.
+      We’ve had the privilege of collaborating with some of the world’s most innovative startups and renowned brands. They trusted us to help launch their visions or elevate their growth to new heights.
           </p>
     
       <Slider
