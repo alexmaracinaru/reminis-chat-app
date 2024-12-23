@@ -51,7 +51,7 @@ const TrustedBy = () => {
           <img
             src={`${process.env.PUBLIC_URL}/images/logo4.png`}
             alt="Logo 4"
-            className="w-28 h-auto"
+            className="w-32 h-auto"
           />
         </Slider.Slide>
        

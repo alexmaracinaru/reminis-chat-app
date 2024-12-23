@@ -62,7 +62,7 @@ const OurApproach = () => {
     },
     {
       id: "branding",
-      step: "04",
+      step: "03",
       title: "Brand Strategy & Identity",
       content:
         "Once we achieve PMF for your product, you need a compelling brand to capture attention, communicate your business' and product's purpose, and build trust. Moreover, branding also sets the foundation for effective marketing and fundraising.",
@@ -71,7 +71,7 @@ const OurApproach = () => {
     },
     {
       id: "gtm",
-      step: "05",
+      step: "04",
       title: "Go-To-Market (GTM) Strategy",
       content:
         "With the product refined and the brand established, the final step is planning and executing a strategy for rapid market traction. During this stage we focus on customer acquisition, scaling, and measuring your success.",
