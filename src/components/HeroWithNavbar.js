@@ -14,10 +14,16 @@ const HeroWithNavbar = () => {
         {/* Logo with hover and home link */}
         <a href="/" className="flex items-center">
           <img
+            src={`${process.env.PUBLIC_URL}/images/brandiaq-icon.svg`}
+            alt="Namandla Advisors"
+            className="w-10 h-auto transition-transform duration-300 ease-in-out hover:scale-95"
+          />{" "}
+          {/* <img
             src={`${process.env.PUBLIC_URL}/images/logo.svg`}
             alt="Namandla Advisors"
             className="w-36 h-auto transition-transform duration-300 ease-in-out hover:scale-95"
-          />
+          /> */}
+          <p className=" pl-4 text-sm text-gray-500">by Brandiaq</p>
         </a>
 
         {/* Navigation Links */}
@@ -41,11 +47,7 @@ const HeroWithNavbar = () => {
             Who we are
           </a>
         </div>
-
         {/* Assessment Button */}
-        <button className="self-start px-6 py-2 btn-color text-white rounded-full hover:bg-gray-700 transition duration-300 ease-in-out">
-          Assessment
-        </button>
 
         {/* Mobile Menu Button */}
         <button id="mobile-menu-button" className="block md:hidden text-black">
@@ -65,24 +67,27 @@ const HeroWithNavbar = () => {
           </svg>
         </button>
       </nav>
-
       {/* Hero Content */}
       <div className="relative z-10 flex flex-col md:flex-row items-end justify-between px-6 sm:px-12 md:px-36 md:pb-36 md:h-full h-1/2">
         <h1 className="indigo-text text-5xl sm:text-6xl md:text-8xl lg:text-7xl xl:text-7xl 2xl:text-8xl text-left gray-text max-w-[650px] md:pb-0 pt-32">
           We're a venture design studio.
         </h1>
-        <div className="flex flex-col space-y-4 md:max-w-[350px]">
-          <p className=" text-xl sm:text-base md:text-sm text-gray-500 leading-relaxed line-height-1.65">
+        <div className="flex flex-col md:space-y-4 space-y-8 md:max-w-[320px]">
+          <p className="sm:text-base md:text-sm text-gray-500 leading-relaxed">
             We transform startups into high-growth companies through founder
             alignment, product design, branding, and go-to-market strategies.
           </p>
-          <button className=" self-start px-6 py-2 mt-6 btn-color text-white rounded-full hover:bg-gray-700 transition duration-300 ease-in-out">
+          <a
+            href="https://cal.com/brandiaq/30min"
+            target="_blank"
+            rel="noreferrer"
+            className=" self-start px-6 py-2 mt-6 btn-color text-white rounded-full hover:bg-gray-700 transition duration-300 ease-in-out"
+          >
             Book scoping session
-          </button>
+          </a>
         </div>
       </div>
     </section>
   );
 };
-
 export default HeroWithNavbar;

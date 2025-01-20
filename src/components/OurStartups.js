@@ -2,14 +2,14 @@ import React, { useEffect, useState } from "react";
 
 const StartupCard = ({ category, name, description, image, link }) => (
   <div className="space-y-4">
-   <div className="relative overflow-hidden rounded-lg">
-    <a href={link} target="_blank" rel="noopener noreferrer">
-      <img
-        src={image}
-        alt={name}
-        className="border-radius-21 w-full object-cover transform transition-transform duration-300 ease-in-out hover:scale-105"
-      />
-    </a>
+    <div className="relative overflow-hidden rounded-lg">
+      <a href={link} target="_blank" rel="noopener noreferrer">
+        <img
+          src={image}
+          alt={name}
+          className="border-radius-21 w-full object-cover transform transition-transform duration-300 ease-in-out hover:scale-105"
+        />
+      </a>
     </div>
     <p className="text-xs sm:text-sm text-gray-500 bg-gray-100 w-fit rounded-lg px-2 py-1">
       {category}
@@ -17,7 +17,7 @@ const StartupCard = ({ category, name, description, image, link }) => (
     <a href={link} target="_blank" rel="noopener noreferrer">
       <h3 className="text-xl sm:text-2xl md:text-3xl indigo-text">{name}</h3>
     </a>
-    <p className="font-openSans text-gray-500 text-xl sm:text-base md:text-sm max-w-[300px] pb-4 leading-relaxed">
+    <p className="font-openSans text-gray-500 sm:text-base md:text-sm max-w-[300px] pb-4 leading-relaxed">
       {description}
     </p>
     {/* <a href={link} className="text-gray-500 text-xs font-medium hover:font-bold ease-in-out duration-300">
@@ -45,12 +45,12 @@ const OurStartups = () => {
 
   return (
     <section
-    id="our-startups"
+      id="our-startups"
       className="relative bg-white px-6 sm:px-12 md:px-24 lg:px-36 py-10 min-h-screen"
       style={{ zIndex: 20 }}
     >
       {/* Heading for Our Startups */}
-      <h2 className="text-3xl sm:text-4xl md:text-6xl text-center md:text-left md:pt-32 md:pb-20 indigo-text">
+      <h2 className="text-3xl sm:text-4xl md:text-6xl md:text-left md:pt-32 pt-12 md:pb-20 pb-8 indigo-text">
         Our Startups
       </h2>
       {/* Startup Cards Grid */}
@@ -66,8 +66,8 @@ const OurStartups = () => {
           />
         ))}
       </div>
-         {/* Divider */}
-  <div className="md:block hidden mt-24 border-t border-gray-300 relative z-10"></div>
+      {/* Divider */}
+      <div className="md:block hidden mt-24 border-t border-gray-300 relative z-10"></div>
     </section>
   );
 };

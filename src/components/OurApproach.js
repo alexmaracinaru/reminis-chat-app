@@ -5,15 +5,19 @@ const Step = ({ id, step, title, content, deliverables }) => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <div id={id} className="flex flex-col"> {/* Add id for linking */}
+    <div id={id} className="flex flex-col">
       {/* Step Header */}
       <div
         className="flex justify-between items-center cursor-pointer border-t border-black py-4"
         onClick={() => setIsOpen(!isOpen)}
       >
         <div className="flex items-center space-x-8">
-          <div className="text-2xl sm:text-3xl md:text-3xl indigo-text">{step} --</div>
-          <h3 className="text-2xl md:text-4xl lg:text-3xl indigo-text">{title}</h3>
+          <div className="text-2xl sm:text-3xl md:text-3xl indigo-text">
+            {step} --
+          </div>
+          <h3 className="text-2xl md:text-4xl lg:text-3xl indigo-text">
+            {title}
+          </h3>
         </div>
         <button className="text-xl md:text-3xl">{isOpen ? "-" : "+"}</button>
       </div>
@@ -51,14 +55,15 @@ const OurApproach = () => {
       deliverables:
         "Alignment assessment report, actionable recommendations for team cohesion.",
     },
-   
+
     {
       id: "pmf",
       step: "02",
       title: "Product-Market Fit (PMF)",
       content:
         "Achieving Product-Market Fit is critical to ensuring your product is viable and scalable. To accelerate this process, we leverage tools like Design Sprints to rapidly validate ideas, prototypes, and assumptions. This minimizes wasted time and resources while generating user-tested feedback and actionable insights. Once prototypes are validated, the product is refined to better align with market needs, reducing your risk of launching something without demand.",
-      deliverables: "Prototypes, user-tested feedback, PMF validation report, scaling roadmap.",
+      deliverables:
+        "Prototypes, user-tested feedback, PMF validation report, scaling roadmap.",
     },
     {
       id: "branding",
@@ -81,9 +86,10 @@ const OurApproach = () => {
 
   return (
     <section
-    id="our-approach"
-    className="bg-white px-6 md:px-36 md:pt-32 ">
-      <h2 className="text-4xl sm:text-5xl md:text-6xl md:mb-20 text-left indigo-text">
+      id="our-approach"
+      className="bg-white px-6 md:px-36 md:pt-32 pt-12"
+    >
+      <h2 className="text-4xl sm:text-5xl md:text-6xl md:mb-20 mb-12 text-left indigo-text">
         Our Approach
       </h2>
 
