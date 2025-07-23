@@ -1,57 +1,15 @@
-import React, { useState, useRef } from "react";
+import React from "react";
 
 const MessageHistoryScreen = ({ onBack, onUploadFiles, onContinue }) => {
-  const [uploadedFiles, setUploadedFiles] = useState([]);
-  const fileInputRef = useRef(null);
-
-  const handleFileUpload = (event) => {
-    const files = Array.from(event.target.files);
-    if (files.length > 0) {
-      // Validate file types
-      const validTypes = [".txt", ".pdf", ".csv"];
-      const invalidFiles = files.filter((file) => {
-        const extension = "." + file.name.split(".").pop().toLowerCase();
-        return !validTypes.includes(extension);
-      });
-
-      if (invalidFiles.length > 0) {
-        alert("Please select only .txt, .pdf, or .csv files.");
-        return;
-      }
-
-      // Validate file sizes (max 10MB each)
-      const oversizedFiles = files.filter(
-        (file) => file.size > 10 * 1024 * 1024
-      );
-      if (oversizedFiles.length > 0) {
-        alert("Please select files smaller than 10MB each.");
-        return;
-      }
-
-      setUploadedFiles(files);
-      onUploadFiles(files);
-    }
-  };
-
   const handleContinueClick = () => {
-    if (uploadedFiles.length > 0) {
-      onUploadFiles(uploadedFiles);
-      onContinue();
-    }
+    // Simulate file upload for demo purposes
+    const mockFiles = [{ name: "message_history.txt", size: 1024 }];
+    onUploadFiles(mockFiles);
+    onContinue();
   };
 
   return (
     <>
-      {/* Hidden file input */}
-      <input
-        type="file"
-        ref={fileInputRef}
-        onChange={handleFileUpload}
-        accept=".txt,.pdf,.csv"
-        multiple
-        className="hidden"
-      />
-
       {/* Top Bar */}
       <div className="relative w-full mb-6 px-6">
         <button
