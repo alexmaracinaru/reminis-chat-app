@@ -3,7 +3,6 @@ import React, { useState, useRef } from "react";
 const MessageHistoryScreen = ({ onBack, onUploadFiles, onContinue }) => {
   const [uploadedFiles, setUploadedFiles] = useState([]);
   const fileInputRef = useRef(null);
-  const [isUploaded, setIsUploaded] = useState(false);
 
   const handleFileUpload = (event) => {
     const files = Array.from(event.target.files);
@@ -30,7 +29,6 @@ const MessageHistoryScreen = ({ onBack, onUploadFiles, onContinue }) => {
       }
 
       setUploadedFiles(files);
-      setIsUploaded(true);
       onUploadFiles(files);
     }
   };

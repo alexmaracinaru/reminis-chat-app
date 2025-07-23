@@ -97,7 +97,7 @@ const UploadPhotoScreen = ({ onBack, onUploadPhoto, onContinue }) => {
           {uploadedPhoto ? (
             <img
               src={uploadedPhoto}
-              alt="Uploaded photo"
+              alt="User photo"
               className="w-full h-full object-cover"
             />
           ) : (

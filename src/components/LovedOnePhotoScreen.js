@@ -106,7 +106,7 @@ const LovedOnePhotoScreen = ({ onBack, onUploadPhoto, onContinue }) => {
           {uploadedPhoto ? (
             <img
               src={uploadedPhoto}
-              alt="Uploaded loved one's photo"
+              alt="Loved one's photo"
               className="w-full h-full object-cover"
             />
           ) : (
