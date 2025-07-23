@@ -108,4 +108,9 @@ app.get("/api/health", (req, res) => {
 
 app.listen(port, () => {
   console.log(`Server running on port ${port}`);
+  console.log(
+    `Server URL: https://${
+      process.env.RAILWAY_STATIC_URL || "localhost:" + port
+    }`
+  );
 });
