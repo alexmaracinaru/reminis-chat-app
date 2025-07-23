@@ -102,7 +102,10 @@ const LovedOnePhotoScreen = ({ onBack, onUploadPhoto, onContinue }) => {
         </div>
 
         {/* Circular Photo Placeholder */}
-        <div className="w-36 h-36 rounded-full border-2 border-gray-300 flex items-center justify-center mb-6 overflow-hidden">
+        <div
+          className="relative w-36 h-36 rounded-full border-2 border-gray-300 flex items-center justify-center mb-6 overflow-hidden cursor-pointer"
+          onClick={handleUploadClick}
+        >
           {uploadedPhoto ? (
             <img
               src={uploadedPhoto}
@@ -110,19 +113,21 @@ const LovedOnePhotoScreen = ({ onBack, onUploadPhoto, onContinue }) => {
               className="w-full h-full object-cover"
             />
           ) : (
-            <img
-              src={`${process.env.PUBLIC_URL}/images/circle-image.svg`}
-              alt="Upload circle"
-              className="w-full h-full object-cover"
-            />
+            <>
+              <img
+                src={`${process.env.PUBLIC_URL}/images/circle-image.svg`}
+                alt="Upload circle"
+                className="w-full h-full object-cover"
+              />
+              <div className="absolute inset-0 flex items-center justify-center">
+                <img
+                  src={`${process.env.PUBLIC_URL}/images/vertical.svg`}
+                  alt="Upload icon"
+                  className="w-8 h-8"
+                />
+              </div>
+            </>
           )}
-        </div>
-        <div className="absolute inset-0 flex items-center justify-center">
-          <img
-            src={`${process.env.PUBLIC_URL}/images/vertical.svg`}
-            alt="Upload icon"
-            className="w-8 h-8"
-          />
         </div>
 
         {/* Descriptive Text */}
