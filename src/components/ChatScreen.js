@@ -28,7 +28,7 @@ const ChatScreen = ({ onBack, lovedOneProfile, userPhoto, lovedOnePhoto }) => {
   // Function to generate AI response using OpenAI API
   const generateAIResponse = async (userMessage, conversationHistory) => {
     try {
-      const response = await fetch("http://localhost:3001/api/chat", {
+      const response = await fetch("/api/chat", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
