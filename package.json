@@ -2,11 +2,16 @@
   "name": "namandla-react",
   "version": "0.1.0",
   "private": true,
+  "proxy": "http://localhost:3001",
   "dependencies": {
     "clsx": "^2.1.1",
+    "cors": "^2.8.5",
     "cra-template": "1.2.0",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
     "framer-motion": "^11.13.1",
     "gsap": "^3.12.5",
+    "openai": "^4.20.1",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-infinite-logo-slider": "^1.1.4",
@@ -19,6 +24,8 @@
   "homepage": "https://startups.brandiaq.com",
   "scripts": {
     "start": "react-scripts start",
+    "server": "node server.js",
+    "dev": "concurrently \"npm run server\" \"npm run start\"",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
@@ -45,6 +52,7 @@
   },
   "devDependencies": {
     "autoprefixer": "^10.4.20",
+    "concurrently": "^9.2.0",
     "gh-pages": "^6.2.0",
     "postcss": "^8.4.49",
     "tailwindcss": "^3.4.16"
