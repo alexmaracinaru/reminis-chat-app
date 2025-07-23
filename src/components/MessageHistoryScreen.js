@@ -3,6 +3,7 @@ import React, { useState, useRef } from "react";
 const MessageHistoryScreen = ({ onBack, onUploadFiles, onContinue }) => {
   const [uploadedFiles, setUploadedFiles] = useState([]);
   const fileInputRef = useRef(null);
+  const [isUploaded, setIsUploaded] = useState(false);
 
   const handleFileUpload = (event) => {
     const files = Array.from(event.target.files);
@@ -29,19 +30,15 @@ const MessageHistoryScreen = ({ onBack, onUploadFiles, onContinue }) => {
       }
 
       setUploadedFiles(files);
+      setIsUploaded(true);
       onUploadFiles(files);
     }
   };
 
-  const handleUploadClick = () => {
-    fileInputRef.current.click();
-  };
-
-  const handleContinue = () => {
+  const handleContinueClick = () => {
     if (uploadedFiles.length > 0) {
+      onUploadFiles(uploadedFiles);
       onContinue();
-    } else {
-      alert("Please upload message history files to continue.");
     }
   };
 
@@ -110,7 +107,7 @@ const MessageHistoryScreen = ({ onBack, onUploadFiles, onContinue }) => {
       {/* Upload Files Button */}
       <div className="w-full px-6 mt-auto">
         <button
-          onClick={onContinue}
+          onClick={handleContinueClick}
           className="w-full bg-black text-white px-6 py-3 rounded-lg text-base hover:bg-gray-800 transition-colors duration-300 font-alumni"
         >
           UPLOAD FILES

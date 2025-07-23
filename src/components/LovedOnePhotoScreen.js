@@ -112,10 +112,17 @@ const LovedOnePhotoScreen = ({ onBack, onUploadPhoto, onContinue }) => {
           ) : (
             <img
               src={`${process.env.PUBLIC_URL}/images/circle-image.svg`}
-              alt="Photo placeholder"
-              className="w-24 h-16 object-contain"
+              alt="Upload circle"
+              className="w-full h-full object-cover"
             />
           )}
+        </div>
+        <div className="absolute inset-0 flex items-center justify-center">
+          <img
+            src={`${process.env.PUBLIC_URL}/images/vertical.svg`}
+            alt="Upload icon"
+            className="w-8 h-8"
+          />
         </div>
 
         {/* Descriptive Text */}

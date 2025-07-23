@@ -18,7 +18,6 @@ const AppScreen = () => {
   const [userPhoto, setUserPhoto] = useState(null);
   const [lovedOneProfile, setLovedOneProfile] = useState(null);
   const [lovedOnePhoto, setLovedOnePhoto] = useState(null);
-  const [messageHistory, setMessageHistory] = useState(null);
 
   const handleEnterRealm = () => {
     setCurrentScreen("terms");
@@ -102,7 +101,7 @@ const AppScreen = () => {
 
   const handleMessageHistoryUpload = (files) => {
     // Store the message history files globally
-    setMessageHistory(files);
+    // setMessageHistory(files); // This line was removed
     console.log("Message history files uploaded:", files.length);
   };
 

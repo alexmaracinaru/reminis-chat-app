@@ -103,26 +103,16 @@ const UploadPhotoScreen = ({ onBack, onUploadPhoto, onContinue }) => {
           ) : (
             <img
               src={`${process.env.PUBLIC_URL}/images/circle-image.svg`}
-              alt="Photo placeholder"
-              className="w-24 h-16 object-contain"
+              alt="Upload circle"
+              className="w-full h-full object-cover"
             />
           )}
         </div>
-
-        {/* Descriptive Text */}
-        <div className="text-center mb-8">
-          <p className="text-md text-gray-600 font-alumni leading-relaxed max-w-[200px]">
-            Your photo will be shown on your profile and in the chats with your
-            loved ones.
-          </p>
-        </div>
-
-        {/* Abstract Graphic */}
-        <div className="mb-8">
+        <div className="absolute inset-0 flex items-center justify-center">
           <img
             src={`${process.env.PUBLIC_URL}/images/vertical.svg`}
-            alt="Abstract graphic"
-            className="w-36 h-24 object-contain mt-18"
+            alt="Upload icon"
+            className="w-8 h-8"
           />
         </div>
       </div>
